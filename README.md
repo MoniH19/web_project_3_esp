@@ -1,19 +1,10 @@
 # Proyecto 4: De patria a patria
-### Descripción general    
-* Introducción  
-* Figma  
-* Imágenes  
-  
-**Introducción**    
-  
-Este es un proyecto que muestra las ciudades natales de algunos de los empleados de Practicum. Lo hemos diseñado de tal modo que todos los elementos se muestren correctamente en los tamaños de pantalla más habituales. Recomendamos invertir más tiempo en completar este proyecto, ya que es más difícil que los anteriores.     
-  
-**Figma**  
-  
-* [Enlace al proyecto en Figma](https://www.figma.com/file/ZW8wxTYTZH2czTTfDMVHWq/WEB%2C-Sprint-3-%3A-De-patria-a-patria-%7C-desktop-%2B-mobile?node-id=0%3A1)  
-  
-**Imágenes**  
-  
-A la hora de trabajar, debes optar por exportar las imágenes directamente desde Figma; te recomendamos hacerlo para practicar más. No olvides optimizarlas [aquí](https://tinypng.com/), para que tu proyecto cargue más rápido.   
-  
-¡Mucha suerte y que te lo pases bien! 
+    
+* Descripcion de proyecto
+* Tecnologias y tecnicas
+ 
+
+Mi proyecto se compone de una descripcion de varios lugares en el mundo, acomodados mediante tarjetas, donde podremos observar el nombre del lugar y el pais, una imagen de algun paisaje especial, el normbre del artista y una breve descripcion de el ecosistema o drescricpion, Practicum nos hace la invitacion de agregar informacion de nuestra ciudad natal. El proyecto incluye una frase de Joseph Beuys, seguida de una breve introduccion, despues podremos observar una galeria de fotos. Concluimos cada descripcion con un link para adquirir alguna obra de arte; concluimos el proyecto con un link para comprar boletos para la galeria de arte de Practicum.
+
+
+Para armar dicha pagina, empece usando display flex para acomodar el logotipo de la galeria Practicum, el titulo, subtitulo, una imagen, y la introduccion, que incluye un quote, unicamente me ocupe de centrar los elementos y colocarlos en el lugar correspondiente, cuidando los paddings. El proyecto continua con una galeria, donde ocupe en practica por primera vez GRID, tuve que asegurarme que la galeria respetaba los requerimientos y se viera acomodada ya sea en resoluciones de 1280px, 768px y 320 px, ocupe grid-template-rows y grid-template-columns, asi como grid-template-areas, modifique las dimensiones para hacerlas certeras dependiendo la resolucion. Posterior aparecen las tarjetas con la descripcion de cada lugar, la tabla se compone de dos columnas y 3 filas, que incluyen titulo, nombre del artista, imagen, parrafo y un boton para adquirir una obra de arte; nuevamente con GRID logre acomodarlas, siendo en la resolucion de 320px un cambio drastico, ya que cambia el diseno a 1 columna y 5 filas. Por ultimo tenemos una imagen grande con un boton encima para compra de boletos, asi como un titulo y una direccion de la galeria de Practicum, el footer concluye el proyecto. Algunas areas del proyecto tambien cuentan con animaciones de HOVER.
