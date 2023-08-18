@@ -1,0 +1,30 @@
+.cover__container {
+    width: 1184px;
+    height: 740px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-image: url(../../../images/__background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cover__container:hover {
+    opacity: .2;
+}
+
+@media screen and (max-width: 1279px) {
+    .cover__container {
+        width: 768px;
+        height: 746px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover__container {
+        width: 320px;
+        height: 254px;
+    }
+}

@@ -1,0 +1,18 @@
+.header__lead {
+    width: 984px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+@media screen and (max-width: 1279px) {
+    .header__lead {
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__lead {
+        width: 288px;
+    }
+}
