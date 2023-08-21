@@ -18,7 +18,7 @@
         grid-template-areas: 
         "title artist"
         "image paragraph"
-        "frame paragraph"; 
+        "frame paragraph";
         column-gap: 28px;
     }
 }
