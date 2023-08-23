@@ -12,7 +12,7 @@
 }
 
 .cover__container:hover {
-    opacity: .2;
+    opacity: .7;
 }
 
 @media screen and (max-width: 1279px) {
